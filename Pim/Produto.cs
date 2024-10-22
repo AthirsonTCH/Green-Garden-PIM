@@ -15,17 +15,18 @@ namespace Pim
     {
         string strcon = @"Data Source=ATHIRSON-GAMER;" +
                        "Initial Catalog=GreenGarden;Integrated Security=True";
-        string addpro = "INSERT INTO [dbo].[Produtos] (nome_produto, preco, imgPrd) " +
-            "VALUES (@nome_produto , @preco, @imgPrd)";
+        string addpro = "INSERT INTO [dbo].[Produtos] (nome_produto, preco, imgPrd, estoque) " +
+            "VALUES (@nome_produto , @preco, @imgPrd, @estoque)";
         string verpro = "SELECT COUNT(*) FROM [dbo].[Produtos] WHERE nome_produto = @nome_produto";
 
-        string crrgPrd = "SELECT nome_produto, preco, imgPrd FROM Produtos";
+        string crrgPrd = "SELECT nome_produto, preco, imgPrd, estoque FROM Produtos";
 
         public int pk = -1;
         public string nomeProduto;
         public string nomeProduto2;
         public float preco;
         public byte[] imgPrd;
+        public int estoque;
 
         public bool AddPro()//adiciona produto
         {
@@ -58,6 +59,7 @@ namespace Pim
                         cmdCadPro.Parameters.AddWithValue("@nome_produto", nomeProduto);
                         cmdCadPro.Parameters.AddWithValue("@preco", preco);
                         cmdCadPro.Parameters.AddWithValue("@imgPrd", imgPrd);
+                        cmdCadPro.Parameters.AddWithValue("@estoque", estoque);
 
                         int resultado = cmdCadPro.ExecuteNonQuery();
                         if (resultado == 1)
@@ -100,6 +102,9 @@ namespace Pim
                                 }
                                 string precoString = val.ToString("C");
 
+                                //ler o campo de estoque
+                                string estoqueStr = reader["estoque"].ToString();
+
                                 //ler o codigo da imagem no banco de dados
                                 byte[] imageByte = (byte[])reader["imgPrd"];
                                 // Converter bytes da imagem para objeto Image
@@ -115,6 +120,7 @@ namespace Pim
                                 ListViewItem item = new ListViewItem();
                                 item.SubItems.Add(nomeProduto);
                                 item.SubItems.Add(precoString);
+                                item.SubItems.Add(estoqueStr);
                                 item.ImageIndex = imageIdex;
 
                                 menuPosLogin.listView1.Items.Add(item);
@@ -162,10 +168,10 @@ namespace Pim
             return pk;
         }
 
-        public void AlterarPrd(int pk, string nomeProdutoAlterado, float precoAlterado)//altera produto
+        public void AlterarPrd(int pk, string nomeProdutoAlterado, float precoAlterado, int estoqueAlterado)//altera produto
         {
             string AltPrd = "UPDATE [dbo].[Produtos] " +
-                "SET nome_produto = @nome_produto, preco = @preco " +
+                "SET nome_produto = @nome_produto, preco = @preco, estoque = @estoque " +
                 "WHERE produto_id = @produto_id";
 
             try
@@ -179,6 +185,7 @@ namespace Pim
                         cmd.Parameters.AddWithValue("@produto_id", pk);
                         cmd.Parameters.AddWithValue("@nome_produto", nomeProdutoAlterado);
                         cmd.Parameters.AddWithValue("@preco", precoAlterado);
+                        cmd.Parameters.AddWithValue("@estoque", estoqueAlterado);
                         int result = cmd.ExecuteNonQuery();
                         if (result > 0)
                         {

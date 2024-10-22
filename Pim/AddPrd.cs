@@ -21,7 +21,7 @@ namespace Pim
 
         Produto produto = new Produto();
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)//metodo acionado quando se clica na picturebox
         {
             //click picture box
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -86,8 +86,21 @@ namespace Pim
                 MessageBox.Show("O Preço digitado é invalido", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+
+            //verifica se a imagem foi selecionada
             if (produto.imgPrd == null) {
                 MessageBox.Show("Imagem nao selecionada", "Falha", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+
+            //verifica se o estoque é valido
+            if(int.TryParse(textBox3.Text, out int valint))
+            {
+                produto.estoque = valint;
+            }
+            else
+            {
+                MessageBox.Show("O valor em estoque é inválido", "Falha", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
 
@@ -98,6 +111,11 @@ namespace Pim
             }
             this.Close();
 
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            //texbox estoque
         }
     }
 }

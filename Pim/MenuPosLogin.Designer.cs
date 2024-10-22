@@ -47,6 +47,7 @@
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnCadPrd = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -96,6 +97,7 @@
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Window;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.button1);
@@ -104,13 +106,13 @@
             this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Location = new System.Drawing.Point(462, 65);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(229, 289);
+            this.panel3.Size = new System.Drawing.Size(229, 308);
             this.panel3.TabIndex = 22;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(19, 246);
+            this.button2.Location = new System.Drawing.Point(19, 272);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(182, 23);
             this.button2.TabIndex = 5;
@@ -130,7 +132,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(19, 217);
+            this.button1.Location = new System.Drawing.Point(19, 243);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(182, 23);
             this.button1.TabIndex = 3;
@@ -227,6 +229,14 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(19, 217);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(182, 20);
+            this.textBox1.TabIndex = 6;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
             // MenuPosLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -271,5 +281,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.Button btnCadPrd;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

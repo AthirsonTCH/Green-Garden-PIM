@@ -81,9 +81,14 @@ namespace Pim
                 // Acessa o preço
                 string preco = selectitem.SubItems[2].Text;
 
+                //acessa o estoque
+                string estoque = selectitem.SubItems[3].Text;
+
                 //adiciona os valores a sua texbox correspondente para futuras alterações
                 textBox3.Text = nome;
                 textBox4.Text = preco;
+                textBox1.Text = estoque;
+
                 label5.Text = nome;//LABEL USADA PARA IDENTIFICAR ID ATRAVES DO NOME DO PRODUTO
 
                 //messagem de teste
@@ -103,7 +108,7 @@ namespace Pim
             prd.CrrgPrd(this);
         }
 
-        //------------------------------------------MENUPOSLOFIN LOAD--------------------------------------------------------------------------------
+        //------------------------------------------MENUPOSLOGIN LOAD--------------------------------------------------------------------------------
         private void MenuPosLogin_Load(object sender, EventArgs e)
         {
             label5.Visible = false;//deixa, a label usada para identificar a id do produto atraves do nome, visivel ou invisivel
@@ -137,38 +142,44 @@ namespace Pim
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            //textbox para  edição do nome
+            //textbox para  edição e alteração do nome
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            //textbox para edição do preço
+            //textbox para edição e alteração do preço
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             //btn editar produto
 
-            //vai ter que ter um script bem grande nesse botao!!! pq ele vai alterar informações no banco
             CultureInfo culBR = new CultureInfo("pt-BR");
             Produto prd = new Produto();
             
+            //tenta converter o preço em formato monetario para float para poder altera-lo no banco de dados
             if(!float.TryParse(textBox4.Text, NumberStyles.Currency, culBR, out float val))
             {
                 MessageBox.Show("O valor digitado é invalido");
                 return;
             }
+
+            if(!int.TryParse(textBox1.Text, out int valint))
+            {
+                MessageBox.Show("O estoque digitado é inválido");
+                return;
+            }
+
             int id = prd.RecuperarID(label5.Text);
-            prd.AlterarPrd(id, textBox3.Text, val);
+            prd.AlterarPrd(id, textBox3.Text, val, valint);
             label5.Text = textBox3.Text;
             RcrLstVw();
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
-            //gambiarra sinistra logo a baixo
             //label para o metodo alterar produto(AlterarPrd) pegar o text dassa label, ao inves do text da textbox3,
-            //para assim recuperar a id da tabela Produtos e poder editalo no propria textbox 3 isso garante que o id captura seja sempre o id correto
+            //para assim recuperar a id da tabela Produtos e poder editalo no propria textbox 3 isso garante que o id capturado seja sempre o id correto
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -197,7 +208,12 @@ namespace Pim
 
         private void button3_Click(object sender, EventArgs e)
         {
-            RcrLstVw();
+            RcrLstVw();//recarregar list view
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+            //textbox para exibição e alteração de estoque
         }
     }
 }
