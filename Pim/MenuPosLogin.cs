@@ -111,7 +111,8 @@ namespace Pim
         //------------------------------------------MENUPOSLOGIN LOAD--------------------------------------------------------------------------------
         private void MenuPosLogin_Load(object sender, EventArgs e)
         {
-            label5.Visible = false;//deixa, a label usada para identificar a id do produto atraves do nome, visivel ou invisivel
+            label5.Visible = false;//deixa, a label usada para identificar a id do produto atraves do nome, invisivel, isso deve ficar invisivil
+                                   //porem, para testes, pode se deixar visivel
 
             Produto produto = new Produto();
             produto.CrrgPrd(this);
@@ -180,6 +181,9 @@ namespace Pim
         {
             //label para o metodo alterar produto(AlterarPrd) pegar o text dassa label, ao inves do text da textbox3,
             //para assim recuperar a id da tabela Produtos e poder editalo no propria textbox 3 isso garante que o id capturado seja sempre o id correto
+
+            //o motivo dessal label exixtir é pq o programa recupera a id atravez do nome do produto, se o nome do produto for alterado pelo usuario
+            //ele guarda o nome antigo para conseguir ainda localizar o id do produto e alterar o produto no banco de dados
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -146,56 +146,51 @@
             // textBox10
             // 
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox10.ForeColor = System.Drawing.SystemColors.WindowText;
             this.textBox10.Location = new System.Drawing.Point(415, 207);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(115, 26);
             this.textBox10.TabIndex = 87;
-            this.textBox10.Text = "número";
             this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
             // textBox9
             // 
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox9.ForeColor = System.Drawing.SystemColors.WindowText;
             this.textBox9.Location = new System.Drawing.Point(415, 172);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(115, 26);
             this.textBox9.TabIndex = 86;
-            this.textBox9.Text = "rua";
             this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
             // 
             // textBox8
             // 
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox8.ForeColor = System.Drawing.SystemColors.WindowText;
             this.textBox8.Location = new System.Drawing.Point(415, 141);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(115, 26);
             this.textBox8.TabIndex = 85;
-            this.textBox8.Text = "bairro";
             this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox7.ForeColor = System.Drawing.SystemColors.WindowText;
             this.textBox7.Location = new System.Drawing.Point(415, 109);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(115, 26);
             this.textBox7.TabIndex = 84;
-            this.textBox7.Text = "cidade";
             this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox6.ForeColor = System.Drawing.SystemColors.WindowText;
             this.textBox6.Location = new System.Drawing.Point(415, 74);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(115, 26);
             this.textBox6.TabIndex = 83;
-            this.textBox6.Text = "cep";
             this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // label9
