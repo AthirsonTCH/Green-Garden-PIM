@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|d:\\athirson\\documents\\github\\green-garden-pim\\pim\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\pim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\pim\\addprd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\addprd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\pim\\autenticar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\autenticar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddPrd.Designer.cs",
+              "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\AddPrd.Designer.cs",
+              "RelativeDocumentMoniker": "Pim\\AddPrd.Designer.cs",
+              "ToolTip": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\AddPrd.Designer.cs",
+              "RelativeToolTip": "Pim\\AddPrd.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T18:33:03.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Autenticar.cs",
+              "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\Autenticar.cs",
+              "RelativeDocumentMoniker": "Pim\\Autenticar.cs",
+              "ToolTip": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\Autenticar.cs",
+              "RelativeToolTip": "Pim\\Autenticar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T18:32:42.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\Produto.cs",
+              "RelativeDocumentMoniker": "Pim\\Produto.cs",
+              "ToolTip": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\Produto.cs",
+              "RelativeToolTip": "Pim\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T18:32:36.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\Program.cs",
+              "RelativeDocumentMoniker": "Pim\\Program.cs",
+              "ToolTip": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\Program.cs",
+              "RelativeToolTip": "Pim\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T18:32:23.938Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

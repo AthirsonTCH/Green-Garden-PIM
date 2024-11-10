@@ -46,10 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddPrd.cs">
+    <Compile Include="View\AddPrd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddPrd.Designer.cs">
+    <Compile Include="View\AddPrd.Designer.cs">
       <DependentUpon>AddPrd.cs</DependentUpon>
     </Compile>
     <Compile Include="Autenticar.cs" />
@@ -86,7 +86,7 @@
     <Compile Include="View\TelaLogin.Designer.cs">
       <DependentUpon>TelaLogin.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddPrd.resx">
+    <EmbeddedResource Include="View\AddPrd.resx">
       <DependentUpon>AddPrd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Form1.resx">
