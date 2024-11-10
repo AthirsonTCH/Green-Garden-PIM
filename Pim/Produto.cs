@@ -14,9 +14,7 @@ namespace Pim
     internal class Produto
     {
         string strcon = @"Data Source=ATHIRSON-GAMER;" +
-                       "Initial Catalog=GreenGardenDB;Integrated Security=True";
-
-
+                       "Initial Catalog=GreenGarden;Integrated Security=True";
         string addpro = "INSERT INTO [dbo].[Produtos] (nome_produto, preco, imgPrd, estoque) " +
             "VALUES (@nome_produto , @preco, @imgPrd, @estoque)";
         string verpro = "SELECT COUNT(*) FROM [dbo].[Produtos] WHERE nome_produto = @nome_produto";
