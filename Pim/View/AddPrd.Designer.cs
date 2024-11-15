@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddPrd));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -43,6 +44,7 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.textBox3);
             this.panel1.Controls.Add(this.label2);
@@ -53,7 +55,7 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(194, 300);
+            this.panel1.Size = new System.Drawing.Size(194, 314);
             this.panel1.TabIndex = 1;
             // 
             // label3
@@ -109,9 +111,14 @@
             // 
             // btnCadPrd
             // 
+            this.btnCadPrd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCadPrd.BackgroundImage")));
+            this.btnCadPrd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCadPrd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCadPrd.FlatAppearance.BorderSize = 0;
+            this.btnCadPrd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCadPrd.Location = new System.Drawing.Point(16, 267);
             this.btnCadPrd.Name = "btnCadPrd";
-            this.btnCadPrd.Size = new System.Drawing.Size(164, 23);
+            this.btnCadPrd.Size = new System.Drawing.Size(164, 32);
             this.btnCadPrd.TabIndex = 25;
             this.btnCadPrd.Text = "Cadastrar Produto";
             this.btnCadPrd.UseVisualStyleBackColor = true;
@@ -133,7 +140,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(217, 321);
+            this.ClientSize = new System.Drawing.Size(217, 337);
             this.Controls.Add(this.panel1);
             this.Name = "AddPrd";
             this.Text = "AddPrd";

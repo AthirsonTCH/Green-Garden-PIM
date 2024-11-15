@@ -107,7 +107,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.panel1);
             this.Name = "MenuPreLogin";
-            this.Size = new System.Drawing.Size(620, 314);
+            this.Size = new System.Drawing.Size(640, 560);
             this.Load += new System.EventHandler(this.MenuPreLogin_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

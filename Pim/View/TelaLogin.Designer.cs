@@ -142,9 +142,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Controls.Add(this.panel1);
             this.Name = "TelaLogin";
-            this.Size = new System.Drawing.Size(770, 537);
+            this.Size = new System.Drawing.Size(640, 560);
             this.Load += new System.EventHandler(this.TelaLogin_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

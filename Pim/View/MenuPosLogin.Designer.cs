@@ -49,9 +49,11 @@
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnCadPrd = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // imageList1
@@ -64,11 +66,12 @@
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(558, 13);
+            this.panel2.Location = new System.Drawing.Point(461, 13);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(79, 49);
+            this.panel2.Size = new System.Drawing.Size(176, 47);
             this.panel2.TabIndex = 21;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -76,18 +79,20 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label4.Location = new System.Drawing.Point(51, 20);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(135, 20);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 13);
+            this.label4.Size = new System.Drawing.Size(33, 17);
             this.label4.TabIndex = 21;
             this.label4.Text = "Sair";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(21, 0);
+            this.label3.Location = new System.Drawing.Point(113, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 20);
             this.label3.TabIndex = 20;
@@ -105,9 +110,9 @@
             this.panel3.Controls.Add(this.textBox4);
             this.panel3.Controls.Add(this.textBox3);
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Location = new System.Drawing.Point(294, 13);
+            this.panel3.Location = new System.Drawing.Point(295, 96);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(218, 307);
+            this.panel3.Size = new System.Drawing.Size(218, 322);
             this.panel3.TabIndex = 22;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -121,9 +126,14 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(14, 270);
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(14, 279);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(182, 23);
+            this.button2.Size = new System.Drawing.Size(182, 32);
             this.button2.TabIndex = 5;
             this.button2.Text = "Excluir item";
             this.button2.UseVisualStyleBackColor = true;
@@ -141,12 +151,19 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(14, 241);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(182, 23);
+            this.button1.Size = new System.Drawing.Size(182, 32);
             this.button1.TabIndex = 3;
             this.button1.Text = "Editar Produto";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox4
@@ -187,7 +204,7 @@
             this.listView1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(40, 13);
+            this.listView1.Location = new System.Drawing.Point(40, 96);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(234, 322);
             this.listView1.SmallImageList = this.imageList1;
@@ -219,35 +236,48 @@
             // btnCadPrd
             // 
             this.btnCadPrd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCadPrd.BackColor = System.Drawing.Color.Transparent;
             this.btnCadPrd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCadPrd.BackgroundImage")));
             this.btnCadPrd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCadPrd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCadPrd.FlatAppearance.BorderSize = 0;
             this.btnCadPrd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCadPrd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadPrd.Location = new System.Drawing.Point(40, 341);
+            this.btnCadPrd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadPrd.Location = new System.Drawing.Point(40, 424);
             this.btnCadPrd.Name = "btnCadPrd";
             this.btnCadPrd.Size = new System.Drawing.Size(234, 32);
             this.btnCadPrd.TabIndex = 24;
             this.btnCadPrd.Text = "Cadastrar Produto";
-            this.btnCadPrd.UseVisualStyleBackColor = true;
+            this.btnCadPrd.UseVisualStyleBackColor = false;
             this.btnCadPrd.Click += new System.EventHandler(this.btnCadPrd_Click);
             // 
             // button3
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.BackColor = System.Drawing.Color.Transparent;
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(40, 379);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(40, 462);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(234, 32);
             this.button3.TabIndex = 25;
             this.button3.Text = "Atualizar lista de produtos";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(79, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(35, 37);
+            this.pictureBox2.TabIndex = 22;
+            this.pictureBox2.TabStop = false;
             // 
             // MenuPosLogin
             // 
@@ -257,20 +287,21 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnCadPrd);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Name = "MenuPosLogin";
-            this.Size = new System.Drawing.Size(640, 460);
+            this.Size = new System.Drawing.Size(640, 560);
             this.Load += new System.EventHandler(this.MenuPosLogin_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -295,5 +326,6 @@
         private System.Windows.Forms.Button btnCadPrd;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
