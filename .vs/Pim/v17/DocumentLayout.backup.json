@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\pim\\autenticar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\autenticar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|d:\\athirson\\documents\\github\\green-garden-pim\\pim\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|d:\\athirson\\documents\\github\\green-garden-pim\\pim\\view\\menuposlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\view\\menuposlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|d:\\athirson\\documents\\github\\green-garden-pim\\pim\\view\\menuprelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\view\\menuprelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|d:\\athirson\\documents\\github\\green-garden-pim\\pim\\view\\telacad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\view\\telacad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|d:\\athirson\\documents\\github\\green-garden-pim\\pim\\view\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\view\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|d:\\athirson\\documents\\github\\green-garden-pim\\pim\\view\\addprd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\view\\addprd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\pim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\pim\\addprd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\addprd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\pim\\autenticar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9AC377B-43EB-4434-A716-AF0F5ABFFB70}|Pim\\Pim.csproj|solutionrelative:pim\\autenticar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,35 +42,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddPrd.Designer.cs",
-              "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\AddPrd.Designer.cs",
-              "RelativeDocumentMoniker": "Pim\\AddPrd.Designer.cs",
-              "ToolTip": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\AddPrd.Designer.cs",
-              "RelativeToolTip": "Pim\\AddPrd.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MenuPreLogin.cs [Design]",
+              "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\View\\MenuPreLogin.cs",
+              "RelativeDocumentMoniker": "Pim\\View\\MenuPreLogin.cs",
+              "ToolTip": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\View\\MenuPreLogin.cs [Design]",
+              "RelativeToolTip": "Pim\\View\\MenuPreLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T18:33:03.567Z"
+              "WhenOpened": "2024-11-14T20:13:56.351Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "TelaLogin.cs [Design]",
+              "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\View\\TelaLogin.cs",
+              "RelativeDocumentMoniker": "Pim\\View\\TelaLogin.cs",
+              "ToolTip": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\View\\TelaLogin.cs [Design]",
+              "RelativeToolTip": "Pim\\View\\TelaLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:13:27.474Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TelaCad.cs [Design]",
+              "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\View\\TelaCad.cs",
+              "RelativeDocumentMoniker": "Pim\\View\\TelaCad.cs",
+              "ToolTip": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\View\\TelaCad.cs [Design]",
+              "RelativeToolTip": "Pim\\View\\TelaCad.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:13:25.613Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuPosLogin.cs [Design]",
+              "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\View\\MenuPosLogin.cs",
+              "RelativeDocumentMoniker": "Pim\\View\\MenuPosLogin.cs",
+              "ToolTip": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\View\\MenuPosLogin.cs [Design]",
+              "RelativeToolTip": "Pim\\View\\MenuPosLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:13:17.296Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddPrd.cs [Design]",
+              "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\View\\AddPrd.cs",
+              "RelativeDocumentMoniker": "Pim\\View\\AddPrd.cs",
+              "ToolTip": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\View\\AddPrd.cs [Design]",
+              "RelativeToolTip": "Pim\\View\\AddPrd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T19:59:15.59Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Autenticar.cs",
               "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\Autenticar.cs",
               "RelativeDocumentMoniker": "Pim\\Autenticar.cs",
               "ToolTip": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\Autenticar.cs",
               "RelativeToolTip": "Pim\\Autenticar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwB8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T18:32:42.962Z"
+              "WhenOpened": "2024-11-10T18:32:42.962Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Produto.cs",
               "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\Produto.cs",
               "RelativeDocumentMoniker": "Pim\\Produto.cs",
@@ -67,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Athirson\\Documents\\GitHub\\Green-Garden-PIM\\Pim\\Program.cs",
               "RelativeDocumentMoniker": "Pim\\Program.cs",
