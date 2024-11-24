@@ -13,10 +13,7 @@ namespace Pim
 {
     internal class Produto
     {
-        string strcon = @"Data Source=ATHIRSON-GAMER;" +
-                       "Initial Catalog=GreenGardenDB;Integrated Security=True";
-
-
+        
         string addpro = "INSERT INTO [dbo].[Produtos] (nome_produto, preco, imgPrd, estoque) " +
             "VALUES (@nome_produto , @preco, @imgPrd, @estoque)";
         string verpro = "SELECT COUNT(*) FROM [dbo].[Produtos] WHERE nome_produto = @nome_produto";
@@ -30,6 +27,8 @@ namespace Pim
         public byte[] imgPrd;
         public int estoque;
 
+        Autenticar aut = new Autenticar();
+
         public bool AddPro()//adiciona produto
         {
             if (string.IsNullOrWhiteSpace(nomeProduto))
@@ -39,7 +38,7 @@ namespace Pim
             }
             try
             {
-                using (SqlConnection con = new SqlConnection(strcon))
+                using (SqlConnection con = new SqlConnection(aut.strcon))
                 {
                     con.Open();
 
@@ -81,7 +80,7 @@ namespace Pim
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(strcon))
+                using (SqlConnection con = new SqlConnection(aut.strcon))
                 {
                     con.Open();
 
@@ -147,7 +146,7 @@ namespace Pim
             try
             {
                 string recId = "SELECT produto_id FROM [dbo].[Produtos] WHERE nome_produto = @nome_produto";
-                using (SqlConnection con = new SqlConnection(strcon))
+                using (SqlConnection con = new SqlConnection(aut.strcon))
                 {
                     con.Open();
 
@@ -178,7 +177,7 @@ namespace Pim
 
             try
             {
-                using (SqlConnection con = new SqlConnection(strcon))
+                using (SqlConnection con = new SqlConnection(aut.strcon))
                 {
                     con.Open();
 
@@ -207,7 +206,7 @@ namespace Pim
 
             try
             {
-                using (SqlConnection con = new SqlConnection(strcon))
+                using (SqlConnection con = new SqlConnection(aut.strcon))
                 {
                     con.Open();
                     using (SqlCommand cmdExcPrd = new SqlCommand(querryExcPrd, con))

@@ -53,7 +53,7 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.btnCadPrd);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(52, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(194, 314);
             this.panel1.TabIndex = 1;
@@ -126,6 +126,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Location = new System.Drawing.Point(16, 13);
@@ -140,10 +141,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(217, 337);
+            this.ClientSize = new System.Drawing.Size(297, 337);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddPrd";
-            this.Text = "AddPrd";
+            this.Text = "Cadastrar Produto";
+            this.Load += new System.EventHandler(this.AddPrd_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

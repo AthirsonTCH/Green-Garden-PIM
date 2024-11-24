@@ -10,7 +10,7 @@ namespace Pim
 {
     internal class Autenticar
     {
-        string strcon = @"Data Source=ATHIRSON-GAMER;" +
+        public string strcon = @"Data Source=NOME_SERVIDOR;" +
                         "Initial Catalog=GreenGardenDB;Integrated Security=True";
 
         string strcadastrar = "INSERT INTO [dbo].[Funcionario] (nome_usuario, senha, nome_completo, email_corporativo, tel, cpf, endereco_id)" +
@@ -20,7 +20,7 @@ namespace Pim
             "VALUES (@cep ,@cidade ,@bairro ,@rua ,@numero)";
 
         string strLog = "SELECT * FROM [dbo].[Funcionario] WHERE nome_usuario COLLATE SQL_Latin1_General_CP1_CS_AS = @nome AND senha COLLATE SQL_Latin1_General_CP1_CS_AS = @senha";
-        //string strVerSenha = "SELECT * FROM [dbo].[USUARIOS] WHERE senha = @senha";
+        
 
         private string _name;
         private string _senha;

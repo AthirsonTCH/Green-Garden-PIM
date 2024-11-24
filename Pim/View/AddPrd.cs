@@ -26,7 +26,7 @@ namespace Pim
             //click picture box
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp";
-            openFileDialog.Title = "Selecione uma Imagem do produto";
+            openFileDialog.Title = "Selecione a Imagem do produto";
 
             // Verificar se o usuário selecionou o arquivo
             if (openFileDialog.ShowDialog() == DialogResult.OK)
@@ -50,7 +50,7 @@ namespace Pim
             }
             else
             {
-                MessageBox.Show("Imagem não foi selecionada", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Imagem não foi Definida", "Falha", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             
@@ -71,7 +71,7 @@ namespace Pim
             //btn cadastrar
             if (string.IsNullOrWhiteSpace(textBox1.Text))
             {
-                MessageBox.Show("Não é possivel cadastrar produto sem o nome", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("O produto está sem o nome", "Falha", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             produto.nomeProduto = textBox1.Text;
@@ -83,13 +83,13 @@ namespace Pim
             }
             else
             {
-                MessageBox.Show("O Preço digitado é invalido", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("O Preço digitado é invalido", "Falha", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             //verifica se a imagem foi selecionada
             if (produto.imgPrd == null) {
-                MessageBox.Show("Imagem nao selecionada", "Falha", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Imagem não foi Definida", "Falha", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
 
@@ -100,7 +100,7 @@ namespace Pim
             }
             else
             {
-                MessageBox.Show("O valor em estoque é inválido", "Falha", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("O valor no campo estoque é inválido", "Falha", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
 
@@ -116,6 +116,13 @@ namespace Pim
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
             //texbox estoque
+        }
+
+        
+
+        private void AddPrd_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
