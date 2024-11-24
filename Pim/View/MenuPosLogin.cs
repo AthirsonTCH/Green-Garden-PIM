@@ -41,7 +41,7 @@ namespace Pim
         private void label4_Click(object sender, EventArgs e)
         {
             //sair
-            var q = MessageBox.Show("Deseja mesmo sair", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            var q = MessageBox.Show("Deseja sair?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (q == DialogResult.Yes) {
                 var parentform = ParentForm as Form1;
                 if (parentform != null) ;
@@ -72,7 +72,7 @@ namespace Pim
                     pictureBox1.Image = img;
                 }
                 else {
-                    MessageBox.Show("img nn encontrado");
+                    MessageBox.Show("img nao encontrada");
                 }
 
                 //Acessa o nome do produto
@@ -119,18 +119,7 @@ namespace Pim
 
            
 
-            //panel1.Dock = DockStyle.Left;
-            //panel1.Dock = DockStyle.Top;
-            //panel2.Dock = DockStyle.Right;
-            //panel2.Dock = DockStyle.Top;
-            //panel1.Anchor = AnchorStyles.Left | AnchorStyles.Top;
-            //panel2.Anchor = AnchorStyles.Right | AnchorStyles.Top;
-
-            //panel3.Location = new Point(
-            //    (this.ClientSize.Width - panel3.Width)/2,
-            //    (this.ClientSize.Height - panel3.Height)/2
-            //);
-            //panel3.Anchor = AnchorStyles.None;
+            
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)

@@ -84,7 +84,7 @@ namespace Pim
             Form1 telaCad = new Form1();
             if (_senha != _senhaC)
             {
-                MessageBox.Show("Senhas divergentes", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("As Senhas são diferentes", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 return;
             }
@@ -96,7 +96,7 @@ namespace Pim
             }
             if (string.IsNullOrWhiteSpace(Senha))
             {
-                MessageBox.Show("campo de senha está vazio", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("O campo Senha está vazio", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 return;
             }
@@ -116,7 +116,7 @@ namespace Pim
 
                         if (count > 0)
                         {
-                            MessageBox.Show("Usuario ja existe, tente novamente", "Cadastro", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                            MessageBox.Show("O Usuario ja existe, tente novamente", "Cadastro", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
                             return;
                         }
                     }
