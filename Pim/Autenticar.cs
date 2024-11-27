@@ -10,7 +10,7 @@ namespace Pim
 {
     internal class Autenticar
     {
-        public string strcon = @"Data Source=NOME_SERVIDOR;" +
+        public string strcon = @"Data Source=ATHIRSON-GAMER;" +
                         "Initial Catalog=GreenGardenDB;Integrated Security=True";
 
         string strcadastrar = "INSERT INTO [dbo].[Funcionario] (nome_usuario, senha, nome_completo, email_corporativo, tel, cpf, endereco_id)" +
